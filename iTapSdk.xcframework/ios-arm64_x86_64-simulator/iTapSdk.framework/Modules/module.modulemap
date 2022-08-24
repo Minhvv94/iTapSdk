@@ -1,0 +1,6 @@
+framework module iTapSdk {
+  umbrella header "iTapSdk.h"
+
+  export *
+  module * { export * }
+}
