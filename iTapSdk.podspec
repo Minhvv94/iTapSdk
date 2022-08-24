@@ -10,8 +10,8 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://www.facebook.com/minh.vuvan0702'
   spec.source       = { :git => 'https://github.com/Minhvv94/iTapSdk.git', :tag => '1.0' }
   spec.frameworks   = 'UIKit'
-  spec.source_files = 'iTapSdk.xcframework/**/*.h'
-  spec.vendored_frameworks = 'iTapSdk.xcframework'
+  spec.source_files = 'iTapSdk/Classes/**/*.{h}'
+  spec.vendored_frameworks = 'iTapSdk/iTapSdk.xcframework/ios-arm64/iTapSdk.framework'
   spec.swift_versions = '5.0'
   spec.swift_version = '5.0'
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
